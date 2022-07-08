@@ -1,6 +1,7 @@
 ﻿Console.WriteLine("Write a number: ");
-string s_a = Console.ReadLine();
+string a = Console.ReadLine();
 
-int a = int.Parse(s_a);
+int a = int.Parse(a);
 Console.WriteLine(a * a);
+
 
