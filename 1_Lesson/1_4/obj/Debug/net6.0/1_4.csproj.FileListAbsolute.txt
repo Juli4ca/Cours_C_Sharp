@@ -1,0 +1,15 @@
+C:\Users\Юлия\Desktop\ДЗ\Cours_C_Sharp\1_Lesson\1_4\bin\Debug\net6.0\1_4.exe
+C:\Users\Юлия\Desktop\ДЗ\Cours_C_Sharp\1_Lesson\1_4\bin\Debug\net6.0\1_4.deps.json
+C:\Users\Юлия\Desktop\ДЗ\Cours_C_Sharp\1_Lesson\1_4\bin\Debug\net6.0\1_4.runtimeconfig.json
+C:\Users\Юлия\Desktop\ДЗ\Cours_C_Sharp\1_Lesson\1_4\bin\Debug\net6.0\1_4.dll
+C:\Users\Юлия\Desktop\ДЗ\Cours_C_Sharp\1_Lesson\1_4\bin\Debug\net6.0\1_4.pdb
+C:\Users\Юлия\Desktop\ДЗ\Cours_C_Sharp\1_Lesson\1_4\obj\Debug\net6.0\1_4.csproj.AssemblyReference.cache
+C:\Users\Юлия\Desktop\ДЗ\Cours_C_Sharp\1_Lesson\1_4\obj\Debug\net6.0\1_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Юлия\Desktop\ДЗ\Cours_C_Sharp\1_Lesson\1_4\obj\Debug\net6.0\1_4.AssemblyInfoInputs.cache
+C:\Users\Юлия\Desktop\ДЗ\Cours_C_Sharp\1_Lesson\1_4\obj\Debug\net6.0\1_4.AssemblyInfo.cs
+C:\Users\Юлия\Desktop\ДЗ\Cours_C_Sharp\1_Lesson\1_4\obj\Debug\net6.0\1_4.csproj.CoreCompileInputs.cache
+C:\Users\Юлия\Desktop\ДЗ\Cours_C_Sharp\1_Lesson\1_4\obj\Debug\net6.0\1_4.dll
+C:\Users\Юлия\Desktop\ДЗ\Cours_C_Sharp\1_Lesson\1_4\obj\Debug\net6.0\refint\1_4.dll
+C:\Users\Юлия\Desktop\ДЗ\Cours_C_Sharp\1_Lesson\1_4\obj\Debug\net6.0\1_4.pdb
+C:\Users\Юлия\Desktop\ДЗ\Cours_C_Sharp\1_Lesson\1_4\obj\Debug\net6.0\1_4.genruntimeconfig.cache
+C:\Users\Юлия\Desktop\ДЗ\Cours_C_Sharp\1_Lesson\1_4\obj\Debug\net6.0\ref\1_4.dll
