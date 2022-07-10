@@ -1,11 +1,8 @@
 ﻿Console.WriteLine("Write a number: ");
-string s_a = Console.ReadLine();
+int a = int.Parse(Console.ReadLine());
 
 Console.WriteLine("Write a number: ");
-string s_b = Console.ReadLine();
-
-int a = int.Parse(s_a);
-int b = int.Parse(s_b);
+int b = int.Parse(Console.ReadLine());
 
 if (a == b * b)
 {
