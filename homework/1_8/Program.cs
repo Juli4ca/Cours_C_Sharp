@@ -5,6 +5,16 @@ int i = 2;
 
 while (i <= number)
 {
-    Console.WriteLine(i);
-    i += 2;
+    if (i != number)
+    {
+        Console.Write(i);
+        Console.Write(", ");
+        i += 2;
+    }
+    else
+    {
+        Console.Write(i);
+        i += 2;
+    }
+ 
 }
