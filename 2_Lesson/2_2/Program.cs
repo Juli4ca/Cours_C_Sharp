@@ -10,4 +10,6 @@ int MaxDigit(int Number)
 
 int a = new Random().Next(10,100);
 
+Console.WriteLine(a);
+
 Console.WriteLine(MaxDigit(a));
