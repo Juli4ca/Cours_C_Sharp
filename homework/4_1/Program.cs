@@ -3,7 +3,7 @@
 void exponent (int a, int b)
 {
     int res = a;
-    for (int i = 2; i < b; i++)
+    for (int i = 2; i <= b; i++)
     {
         res = res * a;
     }
