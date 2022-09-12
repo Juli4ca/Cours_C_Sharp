@@ -1,15 +1,17 @@
 ﻿// Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 
-int sumDigits (string n)
+int sumDigits (int n)
 {
-    int res = int.Parse(n);
+    int res = 0;
     
-    for (int i = 1; i < n.Length; i++)
+    while (n > 0)
     {
-        res = res + (res % 10);
+        int dig = n % 10;
+        res = res + dig;
+        n = n / 10;
     }
     return res;
 }
 
 
-Console.WriteLine(sumDigits("452"));
+Console.WriteLine(sumDigits(9012));
