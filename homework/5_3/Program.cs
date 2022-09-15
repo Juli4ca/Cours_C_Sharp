@@ -29,7 +29,7 @@ void DifferenceMaxMin (double[] arr)
     
     double max = arr[i];
     
-    for (i = 0; i < arr.Length; i++)
+    for (i = 1; i < arr.Length; i++)
     {
         if (arr[i] < min)
         {
