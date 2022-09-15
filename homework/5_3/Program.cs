@@ -26,19 +26,19 @@ void DifferenceMaxMin (double[] arr)
 {
     int i = 0;
     double min = arr[i];
-    int min_i = i;
+    
     double max = arr[i];
-    int max_i = i;
+    
     for (i = 0; i < arr.Length; i++)
     {
         if (arr[i] < min)
         {
-            min_i = i;
+            
             min = arr[i];
         }
         if (arr[i] > max)
         {
-            max_i = i;
+            
             max = arr[i];
         }
     }
