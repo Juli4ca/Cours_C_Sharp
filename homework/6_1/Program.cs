@@ -7,7 +7,7 @@ void CountPosNum ()
     string end = "end";
     while (true)
     {
-        Console.Write("Введите любую строку и нажмите клавишу Enter (для выхода введете 'end'): ");
+        Console.Write("Введите целое число и нажмите клавишу Enter (для выхода введете 'end'): ");
         
         res = Console.ReadLine();
         if (res == end) break;
