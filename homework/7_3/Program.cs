@@ -1,5 +1,4 @@
-﻿// Напишите программу, которая на вход принимает позиции элемента в двумерном массиве,
-// и возвращает значение этого элемента или же указание, что такого элемента нет.
+﻿// Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
 
 void Print(int[,] arr)
 {
@@ -25,27 +24,27 @@ int[,] MassNums(int row, int column, int from, int to)
     return arr;
 }
 
-string Element_Name(int[,] arr, int rou_e, int column_e)
+void ArithmeticMeanColumn(int[,] arr)
 {
     int row = arr.GetLength(0);
     int column = arr.GetLength(1);
-        
-    for (int i = 0; i < row; i++)    
-        for (int j = 0; j < column; j++)        
-            if (i == rou_e && j == column_e) return $"Element name: {arr[i,j]}";
+    double element_sum = 0;
 
-    return "No";
+    for (int i = 0; i < column; i++)
+    {
+        element_sum = 0;
+        for (int j = 0; j < row; j++) element_sum += arr[j, i];
+        Console.Write($"{Math.Round(element_sum / row, 2)}; ");
+    }
+
 }
 
 Console.Write("Enter the number of rows: ");
 int row = int.Parse(Console.ReadLine());
 Console.Write("Enter the number of columns: ");
 int column = int.Parse(Console.ReadLine());
-Console.WriteLine("Enter the item position: ");
-int rou_e_1 = int.Parse(Console.ReadLine());
-int column_e_1 = int.Parse(Console.ReadLine());
 
-int[,] arr_1 = MassNums(row, column, 1, 10);
+int[,] arr_1 = MassNums(row, column, 1, 6);
 Print(arr_1);
 
-Console.Write($"{Element_Name(arr_1, rou_e_1, column_e_1)}"); 
+ArithmeticMeanColumn(arr_1);
